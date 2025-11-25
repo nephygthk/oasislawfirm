@@ -1,0 +1,283 @@
+{% extends './base_two.html' %}
+{% load static %}
+
+{% block content %}
+<!-- content begin -->
+<div class="no-bottom no-top" id="content">
+    <div id="top"></div>
+
+    <!-- section begin -->
+    <section id="subheader" class="jarallax text-white">
+        <img src="/static/frontend/images/background/subheader3.jpg" class="jarallax-img" alt="">
+        <div class="center-y relative text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center">
+                        <div class="spacer-single"></div>
+                        <h1>About Us</h1>
+                        <p>Reputation. Respect. Result.</p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section close -->
+    <section aria-label="section" data-bgcolor="#ffffff">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-5">
+                    <span class="p-title">Who We Are</span><br>
+                    <h2>Your Partner for Legal Excellence</h2>
+                    <p>
+                        At Oasis Law Firm, we are dedicated to delivering strategic, clear, and effective legal
+                        solutions
+                        tailored to your unique needs. Our attorneys combine deep experience with a client-centered
+                        approach,
+                        ensuring you receive guidance that is both practical and results driven.
+                        <br><br>
+                        We believe in building lasting relationships based on trust, integrity, and professionalism.
+                        Whether
+                        you're facing a complex legal challenge or seeking proactive counsel, our team stands ready to
+                        protect
+                        your interests and help you move forward with confidence.
+                    </p>
+                </div>
+
+                <div class="col-md-6 offset-md-1">
+                    <div class="de-images">
+                        <div class="di-text text-white bg-color">
+                            <h1>25000+</h1><span>Solved Cases</span>
+                        </div>
+                        <img class="di-small-2" src="{% static 'frontend/images/misc/d2.jpg' %}" alt="" />
+                        <img class="di-big img-fluid" src="{% static 'frontend/images/misc/d1.jpg' %}" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section data-bgcolor="#111111" class="text-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 offset-lg-7">
+                    <span class="p-title">Features</span><br>
+                    <h2>
+                        Let Our Experience<br>be Your Guide
+                    </h2>
+                    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home"
+                                role="tab" aria-controls="pills-home" aria-selected="true">Our Attorneys</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile"
+                                role="tab" aria-controls="pills-profile" aria-selected="false">Our Expertise</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact"
+                                role="tab" aria-controls="pills-contact" aria-selected="false">Our Firm</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="pills-tabContent">
+
+                        <!-- Our Attorneys -->
+                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                            aria-labelledby="pills-home-tab">
+                            <p>
+                                Our attorneys form the foundation of Oasis Law Firm's commitment to exceptional
+                                representation.
+                                Each lawyer brings strong courtroom experience, deep legal knowledge, and a client first
+                                mindset.
+                                We take a collaborative approach to every case, ensuring that you benefit from the
+                                combined
+                                insight, strategy, and dedication of our entire legal team.
+                            </p>
+                        </div>
+
+                        <!-- Our Expertise -->
+                        <div class="tab-pane fade" id="pills-profile" role="tabpanel"
+                            aria-labelledby="pills-profile-tab">
+                            <p>
+                                Our firm offers extensive expertise across a broad spectrum of legal practice areas.
+                                Whether
+                                you're dealing with personal legal matters or require strategic business counsel, our
+                                attorneys
+                                provide precise, effective, and tailored solutions. We take pride in delivering guidance
+                                that is
+                                both sophisticated and accessible, empowering you to make informed decisions with
+                                confidence.
+                            </p>
+                        </div>
+
+                        <!-- Our Firm -->
+                        <div class="tab-pane fade" id="pills-contact" role="tabpanel"
+                            aria-labelledby="pills-contact-tab">
+                            <p>
+                                Oasis Law Firm is built on a foundation of integrity, professionalism, and an unwavering
+                                commitment to excellence. We strive to provide legal services that are both
+                                comprehensive and
+                                personalized, ensuring that every client feels supported throughout their legal journey.
+                                From
+                                individuals to major organizations, we stand ready to guide you through every step with
+                                clarity,
+                                care, and confidence.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="jarallax image-container col-md-6 pull-right">
+            <img src="{% static 'frontend/images/byoo/5.jpg' %}" class="jarallax-img" alt="">
+        </div>
+    </section>
+
+    <section aria-label="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2>Our Team</h2>
+                    <div class="small-border"></div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 mb30 wow fadeInRight" data-wow-delay=".2s">
+                    <div class="f-profile text-center">
+                        <div class="fp-wrap f-invert">
+                            <div class="fpw-overlay">
+                                <!-- <div class="fpwo-wrap">
+                                    <div class="fpwow-icons">
+                                        <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
+                                        <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
+                                        <a href="#"><i class="fa fa-linkedin fa-lg"></i></a>
+                                        <a href="#"><i class="fa fa-pinterest fa-lg"></i></a>
+                                    </div>
+                                </div> -->
+                            </div>
+                            <div class="fpw-overlay-btm"></div>
+                            <img src="{% static 'frontend/images/byoo/4.jpg' %}" class="fp-image img-fluid" alt="">
+                        </div>
+                        <h4>Dr. Irving Hubert</h4>
+                        Senior Partner
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 mb30 wow fadeInRight" data-wow-delay=".4s">
+                    <div class="f-profile text-center">
+                        <div class="fp-wrap f-invert">
+                            <div class="fpw-overlay">
+                                <!-- <div class="fpwo-wrap">
+                                    <div class="fpwow-icons">
+                                        <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
+                                        <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
+                                        <a href="#"><i class="fa fa-linkedin fa-lg"></i></a>
+                                        <a href="#"><i class="fa fa-pinterest fa-lg"></i></a>
+                                    </div>
+                                </div> -->
+                            </div>
+                            <div class="fpw-overlay-btm"></div>
+                            <img src="{% static 'frontend/images/byoo/6.jpg' %}" class="fp-image img-fluid" alt="">
+                        </div>
+                        <h4>Thuy Hoang, LL.B</h4>
+                        Associate
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 mb30 wow fadeInRight" data-wow-delay=".6s">
+                    <div class="f-profile text-center">
+                        <div class="fp-wrap f-invert">
+                            <div class="fpw-overlay">
+                                <div class="fpwo-wrap">
+                                    <!-- <div class="fpwow-icons">
+                                        <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
+                                        <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
+                                        <a href="#"><i class="fa fa-linkedin fa-lg"></i></a>
+                                        <a href="#"><i class="fa fa-pinterest fa-lg"></i></a>
+                                    </div> -->
+                                </div>
+                            </div>
+                            <div class="fpw-overlay-btm"></div>
+                            <img src="{% static 'frontend/images/byoo/5.jpg' %}" class="fp-image img-fluid" alt="">
+                        </div>
+                        <h4>Shimmer Robert, LL.B.</h4>
+                        Partner
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="section-text" data-bgcolor="#111111" class="text-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4 col-md-12 wow fadeInRight" data-wow-delay=".2s">
+                    <div class="de_count ultra-big s2 text-center">
+                        <h3 class="timer" data-to="20" data-speed="1000">20</h3>
+                        <span class="id-color">Years of Experience</span>
+                    </div>
+                </div>
+                <div class="col-lg-4 p-lg-5 mb-sm-30 wow fadeInRight" data-wow-delay=".4s">
+                    <span class="p-title">Welcome</span><br>
+                    <h2>Oasis Law Firm: Your Trusted Partner for Legal Solutions</h2>
+                </div>
+
+                <div class="col-lg-4 wow fadeInRight" data-wow-delay=".6s">
+                    <p>
+                        At Oasis Law Firm, we take pride in the extensive experience and expertise our attorneys bring
+                        to every case.
+                        With years of dedicated practice across diverse areas of law, our team combines specialized
+                        knowledge with
+                        a commitment to excellence, ensuring that each client receives strategic guidance and
+                        results-driven solutions.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+
+                <!-- Request Quote -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-box f-boxed style-3 text-center">
+                        <i class="id-color icofont-letter"></i>
+                        <div class="text">
+                            <h4>Request a Consultation</h4>
+                            Our attorneys provide personalized legal guidance tailored to your unique needs, helping you
+                            make informed decisions.
+                        </div>
+                        <i class="wm icofont-letter"></i>
+                    </div>
+                </div>
+
+                <!-- Investigation -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-box f-boxed style-3 text-center">
+                        <i class="id-color icofont-investigation"></i>
+                        <div class="text">
+                            <h4>Legal Investigation</h4>
+                            We conduct thorough investigations and fact-finding to build strong cases and provide
+                            strategic advice.
+                        </div>
+                        <i class="wm icofont-investigation"></i>
+                    </div>
+                </div>
+
+                <!-- Case Fight -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-box f-boxed style-3 text-center">
+                        <i class="id-color icofont-hand-power"></i>
+                        <div class="text">
+                            <h4>Case Representation</h4>
+                            Our experienced attorneys aggressively advocate for your rights, working tirelessly to
+                            achieve the best outcomes.
+                        </div>
+                        <i class="wm icofont-hand-power"></i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</div>
+{% endblock %}

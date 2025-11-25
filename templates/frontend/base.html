@@ -1,0 +1,87 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>OASIS LAWFIRM - Lawyer and Attorney Website Template</title>
+    <link rel="icon" href="{% static 'frontend/images/icon.png' %}" type="image/gif" sizes="16x16">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="OASIS LAWFIRM - Lawyer and Attorney Website Template" name="description" />
+    <meta content="" name="keywords" />
+    <meta content="" name="author" />
+    
+    <!-- CSS Files
+    ================================================== -->
+    <link id="bootstrap" href="{% static 'frontend/css/bootstrap.min.css' %}" rel="stylesheet" type="text/css" />
+    <link href="{% static 'frontend/css/animate.css' %}" rel="stylesheet" type="text/css" />
+    <link href="{% static 'frontend/css/owl.carousel.css' %}" rel="stylesheet" type="text/css" />
+    <link href="{% static 'frontend/css/owl.theme.css' %}" rel="stylesheet" type="text/css" />
+    <link href="{% static 'frontend/css/owl.transitions.css' %}" rel="stylesheet" type="text/css" />
+    <link href="{% static 'frontend/css/magnific-popup.css' %}" rel="stylesheet" type="text/css" />
+    <link href="{% static 'frontend/css/jquery.countdown.css' %}" rel="stylesheet" type="text/css" />
+    <link href="{% static 'frontend/css/style.css' %}" rel="stylesheet" type="text/css" />
+    <!-- color scheme -->
+    <link id="colors" href="{% static 'frontend/css/colors/scheme-01.css' %}" rel="stylesheet" type="text/css" />
+    <link href="{% static 'frontend/css/coloring.css' %}" rel="stylesheet" type="text/css" />
+    <!-- RS5.0 Stylesheet -->
+    <link rel="stylesheet" href="{% static 'frontend/revolution/css/settings.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'frontend/revolution/css/layers.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'frontend/revolution/css/navigation.css' %}" type="text/css">
+</head>
+
+<body>
+    <div id="wrapper">
+        {% include './include/navbar.html' %}
+        {% block content %}{% endblock %}
+        {% include './include/footer.html' %}
+        <div id="preloader">
+            <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+            </div>
+        </div>
+    </div>
+    <!-- <div id="selector">
+        <div class="sc-opt sc-mt">
+            <div class="sc-icon"><i class="fa fa-eyedropper"></i></div>
+            <span class="opt tc1" data-color="scheme-01"></span>
+            <span class="opt tc2" data-color="scheme-02"></span>
+            <span class="opt tc3" data-color="scheme-03"></span>
+            <span class="opt tc4" data-color="scheme-04"></span>
+            <span class="opt tc5" data-color="scheme-05"></span>
+            <span class="opt tc6" data-color="scheme-06"></span>
+            <span class="opt tc7" data-color="scheme-07"></span>
+        </div>
+    </div> -->
+    <!-- <div id="purchase-now">
+        <a href="https://themeforest.net/cart/add_items?ref=designesia&item_ids=29485331"><span>$</span>25</a>
+        <div class="pn-hover">Buy Now</div>
+    </div> -->
+    <!-- Javascript Files
+    ================================================== -->
+    <script src="{% static 'frontend/js/jquery.min.js' %}"></script>
+    <script src="{% static 'frontend/js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'frontend/js/wow.min.js' %}"></script>
+    <script src="{% static 'frontend/js/jquery.isotope.min.js' %}"></script>
+    <script src="{% static 'frontend/js/easing.js' %}"></script>
+    <script src="{% static 'frontend/js/lenis.js' %}"></script>
+    <script src="{% static 'frontend/js/owl.carousel.js' %}"></script>
+    <script src="{% static 'frontend/js/validation.js' %}"></script>
+    <script src="{% static 'frontend/js/jquery.magnific-popup.min.js' %}"></script>
+    <script src="{% static 'frontend/js/enquire.min.js' %}"></script>
+    <script src="{% static 'frontend/js/jquery.stellar.min.js' %}"></script>
+    <script src="{% static 'frontend/js/jquery.plugin.js' %}"></script>
+    <script src="{% static 'frontend/js/typed.js' %}"></script>
+    <script src="{% static 'frontend/js/jarallax.js' %}"></script>
+    <script src="{% static 'frontend/js/jquery.countTo.js' %}"></script>
+    <script src="{% static 'frontend/js/jquery.countdown.js' %}"></script>
+    <script src="{% static 'frontend/js/typed.js' %}"></script>
+    <script src="{% static 'frontend/js/jarallax.js' %}"></script>
+    <script src="{% static 'frontend/js/mdb.min.js' %}"></script>
+    <script src="{% static 'frontend/js/designesia.js' %}"></script>
+    
+</body>
+
+</html>
