@@ -28,7 +28,7 @@
                                     your rights, your business, and your future.
                                 </p>
                                 <div class="spacer-20"></div>
-                                <a class="btn-custom wow fadeInUp" data-wow-delay="1s" href="contact.html">Contact
+                                <a class="btn-custom wow fadeInUp" data-wow-delay="1s" href="{% url 'frontend:contact' %}">Contact
                                     Us</a>
                             </div>
                         </div>
@@ -438,10 +438,10 @@
                                 </div> -->
                             </div>
                             <div class="fpw-overlay-btm"></div>
-                            <img src="{% static 'frontend/images/team/1.jpg' %}" class="fp-image img-fluid" alt="">
+                            <img src="{% static 'frontend/images/byoo/1.jpg' %}" class="fp-image img-fluid" alt="">
                         </div>
-                        <h4>Fynley Wilkinson</h4>
-                        Managing Partner
+                        <h4>Shimmer Robert, LL.B., LL.M.</h4>
+                        Senior Partner
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6 mb30 wow fadeInRight" data-wow-delay=".4s">
@@ -458,9 +458,9 @@
                                 </div> -->
                             </div>
                             <div class="fpw-overlay-btm"></div>
-                            <img src="{% static 'frontend/images/team/2.jpg' %}" class="fp-image img-fluid" alt="">
+                            <img src="{% static 'frontend/images/byoo/5.jpg' %}" class="fp-image img-fluid" alt="">
                         </div>
-                        <h4>Sasha Welsh</h4>
+                        <h4>Jessica Morales, B.Sc., J.D.</h4>
                         Senior Partner
                     </div>
                 </div>
@@ -478,9 +478,9 @@
                                 </div> -->
                             </div>
                             <div class="fpw-overlay-btm"></div>
-                            <img src="{% static 'frontend/images/team/3.jpg' %}" class="fp-image img-fluid" alt="">
+                            <img src="{% static 'frontend/images/byoo/6.jpg' %}" class="fp-image img-fluid" alt="">
                         </div>
-                        <h4>John Shepard</h4>
+                        <h4>Thuy Hoang, LL.B</h4>
                         Associate
                     </div>
                 </div>
@@ -705,7 +705,7 @@
                     <h3 class="no-bottom">Contact Us Now! Get a Free Consultation for Your Case.</h3>
                 </div>
                 <div class="col-md-4 text-lg-end rtl-lg-start text-sm-center wow fadeInRight">
-                    <a href="#" class="btn-custom btn-black text-white light">Make Appointment</a>
+                    <a href="{% url 'frontend:contact' %}" class="btn-custom btn-black text-white light">Make Appointment</a>
                 </div>
             </div>
         </div>
