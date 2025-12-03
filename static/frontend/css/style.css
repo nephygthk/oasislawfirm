@@ -171,7 +171,8 @@ header {
     position: absolute;
     left: 0;
     z-index: 1001;
-    background: rgba(0, 0, 0, .5);
+    background: rgba(4, 2, 129, 0.5);
+    /* background: rgba(0, 0, 0, .5); */
     margin: 0;
     height: 90px;
     /*border-bottom:solid 1px rgba(255,255,255,0);*/
@@ -231,7 +232,8 @@ header .info strong {
 }
 
 header.header-bg {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(5, 3, 134, 0.5);
+    /* background: rgba(0, 0, 0, 0.5); */
 }
 
 header.transparent {
@@ -239,7 +241,8 @@ header.transparent {
 }
 
 body:not(.side-layout) header:not(.smaller):not(.header-mobile).header-light.transparent {
-    background: rgba(255, 255, 255, 0.0);
+    /* background: rgba(255, 255, 255, 0.0); */
+    background: rgba(255, 255, 255, 0);
 }
 
 header.autoshow {
@@ -316,7 +319,8 @@ header.smaller #mainmenu ul ul {
 }
 
 header.smaller {
-    background: rgba(17, 17, 17, 1);
+    background: #00265c;
+    /* background: rgba(17, 17, 17, 1); */
     position: fixed;
     top: 0px;
     padding: 0;
@@ -1258,7 +1262,7 @@ header.header-light .logo-2 {
     padding: 0 30px;
     overflow: hidden;
     top: 0;
-    background: #111111;
+    background: #00265c;
 }
 
 #topbar.topbar-dark {
